@@ -35,4 +35,4 @@ io.on('connection', socket => {
   });
 });
 
-server.listen(8000);
+server.listen(process.env.PORT || 8000);
